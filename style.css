@@ -1,0 +1,46 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.judul{
+    column-span: all;
+}
+
+p{
+    text-align: justify;
+    column-count: 4;
+    column-width: 200px;
+    column-fill:auto;
+    column-rule: 1px solid black;
+
+}
+
+footer{
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    font-size: small;
+}
+
+.kalimat{
+    background-color: gainsboro;
+    padding: 15px;
+    border-bottom: 3px solid rgb(199, 199, 199);
+}
